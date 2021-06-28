@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Submited on FM](https://your-solution-url.com)
-- Live Site URL: [Github Page](https://your-live-site-url.com)
+- Solution URL: [Submited on FM](https://www.frontendmentor.io/solutions/single-page-planet-site-using-js-9gjeOBoYP)
+- Live Site URL: [Github Page](https://suleeyman.github.io/FM-9-PlanetSite/)
 
 ## My process
 
