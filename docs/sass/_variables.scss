@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #fff;
+    --primary-bg: #070724;
+    --secondary-color: #6d2ed5;
+    --mercury: #419EBB;
+    --venus: #eda249;
+    --earth: #6d2ed5;
+    --mars: #d14c32;
+    --jupiter: #d83a34;
+    --saturn: #cd5120;
+    --uranus: #1ec142;
+    --neptune: #2d68f0;
+}
+
+[data-theme="dark"] {
+    --primary-color: #070724;
+    --primay-bg: #fff;
+    --secondary-color: #6d2ed5;
+    --mercury: #419EBB;
+    --venus: #eda249;
+    --earth: #6d2ed5;
+    --mars: #d14c32;
+    --jupiter: #d83a34;
+    --saturn: #cd5120;
+    --uranus: #1ec142;
+    --neptune: #2d68f0;
+}

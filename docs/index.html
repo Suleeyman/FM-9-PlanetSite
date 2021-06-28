@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/planet-earth.svg">
+  <link rel="stylesheet" href="./style/style.css">
+  <script defer src="./js/app.js"></script>
+  <title>Planets fact site | Frontend Mentor</title>
+  
+</head>
+<body>
+  <div id="overlay"></div>
+  <header>
+    <h2>THE PLANETS</h2>
+    <button type="button" class="toggle" tabindex="0">
+      <img src="./assets/icon-hamburger.svg" alt="Hamburger Icon for Navbar">
+    </button>
+    <nav>
+      <ul>
+        <li>
+          <a role="button" tabindex="-1">MERCURY</a>
+        </li>
+        <li>
+          <a role="button" tabindex="-1">VENUS</a>
+        </li>
+        <li>
+          <a role="button" tabindex="-1">EARTH</a>
+        </li>
+        <li>
+          <a role="button" tabindex="-1">MARS</a>
+        </li>
+        <li>
+          <a role="button" tabindex="-1">JUPITER</a>
+        </li>
+        <li>
+          <a role="button" tabindex="-1">SATURN</a>
+        </li>
+        <li>
+          <a role="button" tabindex="-1">URANUS</a>
+        </li>
+        <li>
+          <a role="button" tabindex="-1">NEPTUNE</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="img-block">
+      <img id="planet" src="./assets/planet-earth.svg" alt="Planet Earth">
+    </div>
+    <div class="main-content">
+      <h1>earth</h1>
+      <p class="content">Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.</p>
+      <div>
+        Source :
+        <a id="wiki-link" href="https://en.wikipedia.org/wiki/Earth" target="_blank" tabindex="0">
+          Wikipedia
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path fill="var(--secondary-color)" d="M11.34.66C10.9.22 10.37 0 9.75 0h-7.5C1.63 0 1.1.22.66.66.22 1.1 0 1.63 0 2.25v7.5c0 .62.22 1.15.66 1.59.44.44.97.66 1.59.66h7.5c.62 0 1.15-.22 1.59-.66.44-.44.66-.97.66-1.59v-7.5c0-.62-.22-1.15-.66-1.59zM10 6.25a.467.467 0 01-.305.46.544.544 0 01-.195.04.465.465 0 01-.352-.149L8.023 5.476 3.852 9.648a.481.481 0 01-.352.149.48.48 0 01-.352-.149l-.796-.797a.48.48 0 01-.149-.351.48.48 0 01.149-.352l4.172-4.172-1.125-1.125c-.162-.15-.198-.333-.11-.546A.467.467 0 015.75 2H9.5c.135 0 .253.05.352.148A.48.48 0 0110 2.5v3.75z" opacity=".75"/></svg>
+        </a>
+      </div>
+    </div>
+    <ul class="nav-detail">
+      <li>
+        <a role="button" tabindex="0" data-description="overview">Overview</a>
+      </li>
+      <li>
+        <a role="button" tabindex="0" data-description="structure">Structure</a>
+      </li>
+      <li>
+        <a role="button" tabindex="0" data-description="geology">Surface</a>
+      </li>
+    </ul>
+    <aside>
+      <ul>
+        <li class="detail-li">
+            rotation time
+            <strong>
+              0.99 days
+            </strong>
+          </li>
+        <li class="detail-li">
+            revolution time
+          <strong>
+            365.26 days
+          </strong>
+        </li>
+        <li class="detail-li">
+            radius
+          <strong>
+            6.371 km
+          </strong>
+        </li>
+        <li class="detail-li">
+            average temp.
+          <strong>
+            16°c
+          </strong>
+        </li>
+      </ul>
+      </aside>
+  </main>
+  <footer>
+    Coded by
+    <a href="https://github.com/Suleeyman" target="_blank">Süleyman</a>
+  </footer>
+</body>
+</html>

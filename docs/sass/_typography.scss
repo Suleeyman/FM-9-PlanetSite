@@ -1,0 +1,83 @@
+/* MOBILE */
+
+h1, strong, main .nav-detail li, .detail-li {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Antonio', sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+}
+
+strong {
+    font-family: 'Antonio', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.75px;
+    font-weight: 400;
+}
+
+main .nav-detail li {
+    font-family: 'Spartan', sans-serif;
+    font-size: 9px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.detail-li {
+    font-family: 'Spartan', sans-serif;
+    font-size: 9px;
+    line-height: 16px;
+    letter-spacing: 0.7px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+/* TABLET */
+
+@media screen and (min-width: 750px) {
+    h1 {
+        font-size: 48px;
+        line-height: 62px;
+    }
+
+    strong {
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: -0.9px;
+    }
+
+    main .nav-detail li {
+        line-height: 25px;
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 80px;
+        line-height: 104px;
+    }
+
+    strong {
+        font-size: 40px;
+        line-height: 52px;
+        letter-spacing: -1.5px;
+    }
+
+    main .nav-detail li {
+        font-size: 12px;
+        line-height: 25px;
+        letter-spacing: 2.5px;
+    }
+
+    .detail-li {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+}

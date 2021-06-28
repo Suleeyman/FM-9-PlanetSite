@@ -1,0 +1,17 @@
+@use "./variables" as *;
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Spartan:wght@400;700&display=swap');
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 14px;
+    background: url(./../assets/background-stars.svg) center/cover no-repeat;
+    line-height: 25px;
+    font-weight: 400;
+    background-color: var(--primary-bg);
+    color: var(--primary-color);
+}
